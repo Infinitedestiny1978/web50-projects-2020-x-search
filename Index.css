@@ -1,0 +1,85 @@
+h1 {
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    font-weight: 20px;
+    color: green;
+}
+
+#ImgAdv{
+    text-align: right;
+    font-weight: 20px;
+    color: green;
+}
+
+#Input {
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    padding-left: 5px;
+}
+#GoBck {
+    text-align: right;
+}
+
+a {
+    text-align: center;
+    color: blue;
+    padding: 10px;
+}
+
+body {
+    background-color:white;
+}
+
+form, input {
+    color: purple;
+    font-weight: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+#AdvSearchFields{
+    text-align: left;
+    width: 70%;
+    color: black;
+    padding: 2px;
+    margin: 2px;
+}
+
+#AdvSearchFields p{
+    text-align: left;
+    color: black;
+    padding: 40px;
+    margin: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+#AdvSearchFields input{
+    text-align: left;
+    width: 300px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    border-radius: 3px;
+    height: 15px;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+#AdvSearchButton {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    border-radius: 2.5px;
+    margin-left: 30%;
+}
