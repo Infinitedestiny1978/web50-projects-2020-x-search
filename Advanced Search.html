@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="Index.css">
-    </head>
-    <body>
+<style>
+</style>
 
-        <div  id="GoBck">
-            <a href="Index.html">Go back to google search</a><br><br>
-        </div>
+<head>
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="Index.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Search</title>
+</head>
 
-        <div>
-            <form action="https://google.com/search">
-                <div id="AdvSearchFields">    
-                     <p>all these words:<input id="Input" type="text" name="q"></p>
-                     <p>this exact word or phrase:<input id="Input" type="text" name="q"></p>
-                     <p>any of these words:<input id="Input" type="text" name="q"></p>
-                     <p>none of these words:<input id="Input" type="text" name="q"></p>
-                </div>
+<body class="wrapper">
+    <div  id="GoBck">
+        <a href="Index.html">Go back to google search</a><br><br>
+    </div>
+  <header class="header">
 
-                    <input id="AdvSearchButton" type="submit" value="Advanced Search">
+  </header>
+  <div class="form-container">
+    <form action="https://www.google.com/search?" target="_blank">
+      <div id="input-container"> <input type="text" placeholder='Search' class="input" name="q" />
+      </div>
+      <div>
+        <p type="text" class="input" name="as_q" >Include all these words</p>
+        <input type="text" class="input" name="as_q"/></div><!--value placeholder='Include all these words:'-->
+      <div>
+        <p type="text" class="input" name="as_q" >Include this exact word or phrase</p>
+        <input type="text" class="input" name="as_epq"/></div><!--value placeholder='Include this exact word or phrase:'-->
+      <div>
 
-                </div>
-            </form>
-        </div>
-    </body>
+        <p type="text" class="input" name="as_q" >Include any of these words</p>
+        <input type="text" class="input" name="as_oq"/></div><!--value placeholder='Include any of these words:'-->
+      <div>
+
+        <p type="text" class="input" name="as_q" >Include none of these words</p>
+        <input type="text" class="input" name="as_eq" /></div><!--value placeholder='include none of these words:' -->
+      <div></div>
+      <button type="submit" class="submitBtn">SEARCH</button>
+    </form>
+  </div>
+</body>
+
 </html>

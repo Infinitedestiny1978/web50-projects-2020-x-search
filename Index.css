@@ -41,7 +41,7 @@ form, input {
     color: purple;
     font-weight: 40px;
     text-align: center;
-    margin: 15px;
+    margin-bottom: 15px;
 }
 
 #AdvSearchFields{
@@ -55,7 +55,7 @@ form, input {
 #AdvSearchFields p{
     text-align: left;
     color: black;
-    padding: 40px;
+    padding: 20px;
     margin: 0px;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -82,4 +82,23 @@ form, input {
     padding: 5px;
     border-radius: 2.5px;
     margin-left: 30%;
+}
+
+#Search {
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+#SearchIndex {
+    margin-top: 300px;
+    margin-bottom: 500px;
+}
+
+#SearchImage {
+    margin-top: 300px;
+    margin-bottom: 500px;
+}
+
+p {
+    color: black;
 }
